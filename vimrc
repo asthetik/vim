@@ -12,3 +12,8 @@ noremap K 5k
 
 map R :source $MYVIMRC<CR>
 
+call plug#begin()
+
+Plug 'vim-airline/vim-airline'
+
+call plug#end()
