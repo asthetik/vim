@@ -9,3 +9,6 @@ set wildmenu
 
 noremap J 5j
 noremap K 5k
+
+map R :source $MYVIMRC<CR>
+
