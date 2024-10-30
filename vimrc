@@ -7,8 +7,8 @@ set cursorline
 set showcmd
 set wildmenu
 
-noremap J 5j
-noremap K 5k
+noremap <C-j> 5j
+noremap <C-k> 5k
 
 map <Leader>r :source $MYVIMRC<CR>
 
