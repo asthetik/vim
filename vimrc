@@ -10,7 +10,7 @@ set wildmenu
 noremap J 5j
 noremap K 5k
 
-map R :source $MYVIMRC<CR>
+map <Leader>r :source $MYVIMRC<CR>
 
 call plug#begin()
 
