@@ -1,3 +1,6 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => General
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let mapleader = " "
 syntax on
 
@@ -7,10 +10,12 @@ set cursorline
 set showcmd
 set wildmenu
 
-noremap <C-j> 5j
-noremap <C-k> 5k
+nmap <C-j> 5j
+nmap <C-k> 5k
+" Fast saving
+nmap <leader>w :w!<cr>
 
-map <Leader>r :source $MYVIMRC<CR>
+map <leader>r :source $MYVIMRC<CR>
 
 call plug#begin()
 
