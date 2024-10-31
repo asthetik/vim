@@ -14,6 +14,10 @@ nmap <C-j> 5j
 nmap <C-k> 5k
 " Fast saving
 nmap <leader>w :w!<cr>
+" Quick quit mapping
+" This mapping allows you to quickly exit Vim by pressing <leader> followed by q.
+" It will close the current buffer. If there are unsaved changes, Vim will prompt you.
+nmap <leader>q :q<cr>
 
 map <leader>r :source $MYVIMRC<CR>
 
