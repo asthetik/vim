@@ -1,3 +1,6 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => General
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let mapleader = " "
 syntax on
 
@@ -7,10 +10,17 @@ set cursorline
 set showcmd
 set wildmenu
 
-noremap J 5j
-noremap K 5k
+nmap <C-j> 5j
+nmap <C-k> 5k
+" Fast saving
+nmap <leader>w :w!<cr>
+" Quick quit mapping
+" It will close the current buffer. If there are unsaved changes, Vim will prompt you.
+nmap <leader>q :q<cr>
+" Quick save and exit mapping
+nmap <leader>x :x<cr>
 
-map R :source $MYVIMRC<CR>
+map <leader>r :source $MYVIMRC<CR>
 
 call plug#begin()
 
