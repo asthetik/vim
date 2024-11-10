@@ -4,6 +4,14 @@
 
 [VIM 中文参考手册](https://yianwillis.github.io/vimcdoc/doc/help.html)
 
+## use current vim configuration
+
+```shell
+git clone https://github.com/asthetik/vim.git .vim
+# Automatically initialize and update all submodules
+git submodule update --init --recursive
+```
+
 ## Plugin
 
 [vim-airline](https://github.com/vim-airline)
