@@ -20,6 +20,8 @@ nmap <leader>q :q<cr>
 " Quick save and exit mapping
 nmap <leader>x :x<cr>
 
+" Reload Vim configuration
+" This mapping allows you to reload your Vim configuration file
 map <leader>r :source $MYVIMRC<CR>
 
 call plug#begin()
