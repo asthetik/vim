@@ -1,3 +1,6 @@
+" Set the location for the viminfo file following the XDG Base Directory specification.
+set viminfofile=~/.local/share/vim/viminfo
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
