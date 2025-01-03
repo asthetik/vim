@@ -1,3 +1,6 @@
+" Set the location for the viminfo file following the XDG Base Directory specification.
+set viminfofile=~/.local/share/vim/viminfo
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -18,7 +21,7 @@ nmap <leader>w :w!<cr>
 " It will close the current buffer. If there are unsaved changes, Vim will prompt you.
 nmap <leader>q :q<cr>
 " Quick save and exit mapping
-nmap <leader>x :x<cr>
+nmap <leader>s :x<cr>
 
 " Reload Vim configuration
 " This mapping allows you to reload your Vim configuration file
