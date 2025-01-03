@@ -7,9 +7,9 @@
 ## use current vim configuration
 
 ```shell
-git clone https://github.com/asthetik/vim.git ~/.vim
+git clone https://github.com/asthetik/vim.git ~/.config/vim
 
-cd ~/.vim
+cd ~/.config/vim
 
 # Automatically initialize and update all submodules
 git submodule update --init --recursive
