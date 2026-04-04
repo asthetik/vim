@@ -4,3 +4,6 @@
 [submodule "plugged/vim-surround"]
 	path = plugged/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "plugged/vim-xkbswitch"]
+	path = plugged/vim-xkbswitch
+	url = https://github.com/lyokha/vim-xkbswitch.git

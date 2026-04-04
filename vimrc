@@ -29,5 +29,11 @@ call plug#begin()
 
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-surround'
+Plug 'lyokha/vim-xkbswitch'
 
 call plug#end()
+
+" Automatically switch input source when entering/leaving Insert mode
+let g:XkbSwitchEnabled = 1
+" Path to the backend switcher library for macOS
+let g:XkbSwitchLib = '/usr/local/lib/libInputSourceSwitcher.dylib'

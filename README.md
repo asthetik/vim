@@ -20,13 +20,20 @@ git submodule update --init --recursive
 - Space as leader key
 - System clipboard integration
 - Command-line completion menu
+- Auto input source switching (macOS)
 
 ## Plugins
 
-| Plugin                                                    |       Description     |
-|-----------------------------------------------------------|-----------------------|
-| [vim-airline](https://github.com/vim-airline/vim-airline) |       Status bar      |
-| [vim-surround](https://github.com/tpope/vim-surround)     | Surround text objects |
+| Plugin                                                    | Description                             |
+|:---------------------------------------------------------:|-----------------------------------------|
+| [vim-airline](https://github.com/vim-airline/vim-airline) | Status bar                              |
+| [vim-surround](https://github.com/tpope/vim-surround)     | Surround text objects                   |
+| [vim-xkbswitch](https://github.com/lyokha/vim-xkbswitch)  | Auto switch input source on mode change |
+
+## Requirements
+
+- Vim 8+
+- macOS: [libInputSourceSwitcher](https://github.com/vovkasm/input-source-switcher) for vim-xkbswitch
 
 ## Key Mappings
 
